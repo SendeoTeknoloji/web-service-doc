@@ -1,4 +1,4 @@
-﻿
+
 <img align="center" width="45%" src="logo.png">
 
 ## Web Servis 
@@ -7,67 +7,39 @@
 
 ***İçindekiler***
 
-[Giriş	5](#_toc101346603)
-
-[Genel Bilgiler	5](#_toc101346604)
-
-[Generic Kargo Entegrasyon	6](#_toc101346605)
-
-[Cargo Servisleri	8](#_toc101346606)
-
-[SETDELIVERY	9](#_toc101346607)
-
-[İstek Parametreleri	9](#_toc101346608)
-
-[Cevap Parametreleri (200 = Başarılı)	14](#_toc101346609)
-
-[Hatalı Dönüş Parametreleri	15](#_toc101346610)
-
-[CANCELDELIVERY	16](#_toc101346611)
-
-[İstek Parametreleri	16](#_toc101346612)
-
-[Cevap Parametreleri (200 = Başarılı)	16](#_toc101346613)
-
-[Hatalı Dönüş Parametreleri	16](#_toc101346614)
-
-[TRACKDELIVERY	16](#_toc101346615)
-
-[İstek Parametreleri	16](#_toc101346616)
-
-[Cevap Parametreleri (200 = Başarılı)	16](#_toc101346617)
-
-[Hatalı Dönüş Parametreleri	19](#_toc101346618)
-
-[CARGOMEASUREMENTUPDATE	19](#_toc101346619)
-
-[İstek Parametreleri	20](#_toc101346620)
-
-[Cevap Parametreleri (200 = Başarılı)	21](#_toc101346621)
-
-[Hatalı Dönüş Parametreleri	21](#_toc101346622)
-
-[GETBARCODEBYTRACKINGNUMBER	22](#_toc101346623)
-
-[İstek Parametreleri	22](#_toc101346624)
-
-[Cevap Parametreleri (200 = Başarılı)	22](#_toc101346625)
-
-[Hatalı Dönüş Parametreleri	22](#_toc101346626)
-
-[GETBARCODE	22](#_toc101346627)
-
-[İstek Parametreleri	22](#_toc101346628)
-
-[Cevap Parametreleri (200 = Başarılı)	23](#_toc101346629)
-
-[Hatalı Dönüş Parametreleri	23](#_toc101346630)
-
-[Servislerde Kullanılacak Bilgiler	24](#_toc101346631)
-
-[Sendeo Statü Listesi	24](#_toc101346632)
-
-[Sendeo İl ve İlçe Listesi	26](#_toc101346633)
+| Konu | Sayfa |
+| -------- | ------- |
+|[Giriş	5](#_toc101346603) | 5|
+|[Genel Bilgiler](#_toc101346604) | 5|
+|[Generic Kargo Entegrasyon](#_toc101346605) | 	6|
+|[Cargo Servisleri	](#_toc101346606) | 8|
+|[SETDELIVERY](#_toc101346607) | 9|
+|[İstek Parametreleri	](#_toc101346608) | 9|
+|[Cevap Parametreleri (200 = Başarılı)	](#_toc101346609) | 14|
+|[Hatalı Dönüş Parametreleri	](#_toc101346610) | 15|
+|[CANCELDELIVERY	](#_toc101346611) | 16|
+|[İstek Parametreleri	](#_toc101346612) | 16|
+|[Cevap Parametreleri (200 = Başarılı)	](#_toc101346613) | 16|
+|[Hatalı Dönüş Parametreleri	](#_toc101346614) | 16|
+|[TRACKDELIVERY	](#_toc101346615) | 16|
+|[İstek Parametreleri	](#_toc101346616) | 16|
+|[Cevap Parametreleri (200 = Başarılı)	](#_toc101346617) | 16|
+|[Hatalı Dönüş Parametreleri	](#_toc101346618) | 19|
+|[CARGOMEASUREMENTUPDATE	](#_toc101346619) | 19|
+|[İstek Parametreleri	](#_toc101346620) | 20|
+|[Cevap Parametreleri (200 = Başarılı)	](#_toc101346621) | 21|
+|[Hatalı Dönüş Parametreleri	](#_toc101346622) | 21|
+|[GETBARCODEBYTRACKINGNUMBER	](#_toc101346623) | 22|
+|[İstek Parametreleri	](#_toc101346624) | 22|
+|[Cevap Parametreleri (200 = Başarılı)	](#_toc101346625) | 22|
+|[Hatalı Dönüş Parametreleri	](#_toc101346626) | 22|
+|[GETBARCODE	](#_toc101346627) | 22|
+|[İstek Parametreleri	](#_toc101346628) |22|
+|[Cevap Parametreleri (200 = Başarılı)	](#_toc101346629) | 23|
+|[Hatalı Dönüş Parametreleri	](#_toc101346630) | 23|
+|[Servislerde Kullanılacak Bilgiler	](#_toc101346631) | 24|
+|[Sendeo Statü Listesi	](#_toc101346632) | 24|
+|[Sendeo İl ve İlçe Listesi	](#_toc101346633) | 26|
 
 
 
