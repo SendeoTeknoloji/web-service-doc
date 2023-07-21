@@ -105,9 +105,7 @@ Canlı APi Bilgilerinin tanımı aşağıdaki gibi yapılması gerekmektedir.
 1. Kayıt oluştururken satış temsilcinizin ana müşteriye tanımladığı cep telefonu numarası ile kayıt olunması gerekmektedir.
 1. Kayıt Olma aşamasında ekranda gösterilen bilgiler giriş yapılır. Bilgiler giriş yapılması sonrasında “Kayıt Ol” butonuna basıldığında giriş yapılan cep telefonuna doğrulama kodu gönderilir. Gönderilen doğrulama kodu giriş yapılarak Kayıt Ol denildiğinde ilgili kullanıcının tanımı gerçekleştirilmektedir.
 
-![Graphical user interface, application
-
-Description automatically generated](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.005.png)
+![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.005.png)
 
 1. Kayıt işleminin başarılı olması sonrasında kullanıcı Şube Sende Login sayfasına yönlendirilmektedir. Ekran üzerinden OTP kodu da giriş yapılarak login işlemi gerçekleşir.
 1. Kayıt olunan Cep telefonu bilgisi ana müşteriye ait ise tanımlanan Admin kullanıcı alt müşterilere ilişkin kullanıcı tanımları yapılabilmektedir.
