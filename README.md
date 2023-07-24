@@ -526,7 +526,7 @@ Post metodu ile çalışır.
 
 İl ve ilçelere ilişkin listeye ekteki excel ile ulaşabilirsiniz.
 
-![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.013.png)
+[İl-İçe Listesi](il-ilce.xlsx)
 
 DeliveryType 1 ,2 ve 3 Örnekleri
 
