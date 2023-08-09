@@ -532,6 +532,11 @@ DeliveryType 1 ,2 ve 3 Örnekleri
 
 \*\*Müşteri ihtiyacına göre alanlar farklılık gösterecektir. Örnek olması açısından paylaşılmıştır.
 
-![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.014.png)![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.015.png)![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.016.png)
+ 
+ Delivery Type Request Örnekleri :
 
-
+### <a href="Deliverytype 1 örnek request bilgisi.txt" >Delivery Type 1</a>
+ ### <a href="Deliverytype 2 örnek request bilgisi.txt" >Delivery Type 2</a>
+### <a href="Deliverytype 3 örnek request bilgisi.txt" >Delivery Type 3</a>
+### <a href="Deliverytype 6 örnek request bilgisi.txt" >Delivery Type 6</a>
+### <a href="Deliverytype 6 örnek request bilgisi.txt" >Delivery Type 6 STN iade</a>
