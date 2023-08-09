@@ -534,4 +534,5 @@ DeliveryType 1 ,2 ve 3 Örnekleri
 
 ![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.014.png)![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.015.png)![](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.016.png)
 
+TEST OK !
 
