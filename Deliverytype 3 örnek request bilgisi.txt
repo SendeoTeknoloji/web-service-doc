@@ -1,0 +1,34 @@
+{
+    "deliverytype": 3,
+    "referenceNo": "1221122122",
+    "sender": "Test Gönderen",
+    "senderAddress": "xxx caddesi yyy sokak zzz mahallesi No:5 Kat:5 Gaziosmanpaşa/İstanbul",
+    "senderId": "",
+    "senderCityId": 34,
+    "senderDistrictId": 34139,
+    "senderPhone": "2121111111",
+    "senderGSM": "5321111111",
+    "receiver": "Test Alıcı",
+    "receiverAddress": "xxx caddesi yyy sokak zzz mahallesi No:5 Kat:5 Dikili /İzmir",
+    "receiverId": "",
+    "receiverCityId": 35,
+    "receiverDistrictId": 174032,
+    "receiverPhone": "2121111111",
+    "receiverGSM": "5321111111",
+    "paymentType": 1,
+    "collectionType": 0,
+    "collectionPrice": 0,
+    "serviceType": 1,
+    "barcodeLabelType": 3,
+    "products": [
+        {
+            "count": 3,
+            "productCode": "Test Data",
+            "description": "Test Data",
+            "deci": 3,
+            "weigth": 3,
+            "deciWeight": 3,
+            "price": 3
+        }
+    ]
+}

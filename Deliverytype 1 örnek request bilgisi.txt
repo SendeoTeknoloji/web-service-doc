@@ -1,0 +1,42 @@
+{
+  "DeliveryType": 1,
+  "ReferenceNo": "test",
+  "Description": "test",
+  "Sender": "Test Gönderen",
+  "SenderId": "",
+  "SenderAuthority": "Test",
+  "SenderAddress": "örnek adres",
+  "SenderCityId": 34,
+  "SenderDistrictId": 34139,
+  "senderPhone": "2121111111",
+  "SenderGSM": "2121111111",
+  "SenderEmail": "",
+  "Receiver": "Test Alıcı",
+  "ReceiverId": "",
+  "ReceiverAuthority": "",
+  "ReceiverAddress": "örnek adres",
+  "ReceiverCityId": "35",
+  "ReceiverDistrictId": "174032",
+  "receiverPhone": "5321111111",
+  "ReceiverEmail": "test@mail.com",
+  "PaymentType": 1,
+  "CollectionType": 0,
+  "CollectionPrice": 0,
+  "dispatchNoteNumber": "111111111",
+  "ServiceType": 1,
+  "additionalZpl": "1",
+  "barcodeLabelType": 1,
+  "customerReferenceType": "",
+  "products": [
+    { "Deci" : 5,
+      "Count": 1,
+      "ProductCode": "",
+      "Description": ""
+    },
+    { "Deci" : 10,
+      "Count": 1,
+      "ProductCode": "",
+      "Description": ""
+    }
+  ]
+}

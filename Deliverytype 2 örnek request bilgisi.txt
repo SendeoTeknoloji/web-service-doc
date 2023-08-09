@@ -1,0 +1,30 @@
+
+{
+  "DeliveryType": 2,
+  "ReferenceNo": "1221122122",
+  "Sender": "Test Gönderen",
+  "SenderAddress": "xxx caddesi yyy sokak zzz mahallesi No:5 Kat:5 Gaziosmanpaşa/İstanbul",
+  "SenderCityId": 34,
+  "SenderDistrictId": 34139,
+  "SenderGSM": "5321111111",
+  "Receiver": "Test Alıcı",
+  "ReceiverId": "",
+  "ReceiverAddress": "xxx caddesi yyy sokak zzz mahallesi No:5 Kat:5 Dikili /İzmir",
+  "ReceiverCityId": 35,
+  "ReceiverDistrictId": 174032,
+  "ReceiverGSM": "5322111111",
+  "PaymentType": 1,
+  "CollectionType": 0,
+  "CollectionPrice": 0,
+  "ServiceType": 1,
+  "barcodeLabelType": 1,
+  "products":[ 
+{
+    "Count": 2,
+    "ProductCode": "",
+    "Description": "",
+    "Deci":"1",
+    "Price": 3
+  }
+]
+}
