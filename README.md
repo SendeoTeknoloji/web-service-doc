@@ -39,8 +39,8 @@
 |[Servislerde Kullanılacak Bilgiler	](#_toc101346631) | 24|
 |[Sendeo Statü Listesi	](#_toc101346632) | 24|
 |[Sendeo İl ve İlçe Listesi	](#_toc101346633) | 26|
-
-
+|[Delivery Type Request Örnekleri	](#_toc101346634) | 28|
+|[Kod Örnekleri	](#_toc101346635) | 28|
 
 
 
@@ -533,10 +533,19 @@ DeliveryType 1 ,2 ve 3 Örnekleri
 \*\*Müşteri ihtiyacına göre alanlar farklılık gösterecektir. Örnek olması açısından paylaşılmıştır.
 
 
- Delivery Type Request Örnekleri :
+### <a name="#_toc101346634"></a>Delivery Type Request Örnekleri : 
 
 #### <a href="Deliverytype 1 örnek request bilgisi.txt" >Delivery Type 1</a>
 #### <a href="Deliverytype 2 örnek request bilgisi.txt" >Delivery Type 2</a>
 #### <a href="Deliverytype 3 örnek request bilgisi.txt" >Delivery Type 3</a>
 #### <a href="./deliveryType6 Örnek Request.docx" >Delivery Type 6</a>
 #### <a href="./deliveryType6 stn iade.docx" >Delivery Type 6 STN iade</a>
+
+
+### <a name="#_toc101346635"></a> Kod Örnekleri : 
+
+#### <a href="https://github.com/SendeoTeknoloji/Sendeo.Client.CSharp" >C# Örnek Proje</a> 
+
+#### <a href="https://github.com/SendeoTeknoloji/Sendeo.Client.PHP" >PHP Örnek Proje</a>
+
+ 
