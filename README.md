@@ -533,7 +533,7 @@ DeliveryType 1 ,2 ve 3 Örnekleri
 \*\*Müşteri ihtiyacına göre alanlar farklılık gösterecektir. Örnek olması açısından paylaşılmıştır.
 
 
-### <a name="#_toc101346634"></a>Delivery Type Request Örnekleri : 
+### <a name="_toc101346634"></a>Delivery Type Request Örnekleri : 
 
 #### <a href="Deliverytype 1 örnek request bilgisi.txt" >Delivery Type 1</a>
 #### <a href="Deliverytype 2 örnek request bilgisi.txt" >Delivery Type 2</a>
@@ -542,7 +542,7 @@ DeliveryType 1 ,2 ve 3 Örnekleri
 #### <a href="./deliveryType6 stn iade.docx" >Delivery Type 6 STN iade</a>
 
 
-### <a name="#_toc101346635"></a> Kod Örnekleri : 
+### <a name="_toc101346635"></a> Kod Örnekleri : 
 
 #### <a href="https://github.com/SendeoTeknoloji/Sendeo.Client.CSharp" >C# Örnek Proje</a> 
 
