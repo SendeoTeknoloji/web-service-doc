@@ -78,13 +78,13 @@ Bu doküman, Sendeo web servis entegrasyonları için hazırlanmıştır. <a nam
  
 # <a name="_toc101346604"></a>Genel Bilgiler
 
-Sendeo servisleri <https://api.sendeo.com.tr> linki üzerinden çalışmaktadır. Ayrıca ilgili link üzerinden Swagger ile servislerle alakalı bilgiler görülebilmektedir.
+Sendeo servisleri <https://api.sendeo.com.tr>  üzerinden çalışmaktadır. 
 
 Servislerin kullanılması için müşteri bazlı token alınması gerekmektedir. Bu bilgi Token/LoginAES servisi üzerinden müşteri bazlı alınmaktadır. “BEARER” token kullanılmaktadır. Token expire süremiz 20 saattir. Bu süre bitiminde yeniden token alınması gerekmektedir. Erişimde TLS 1.2 kullanılmalıdır.
 
-![Login Yönetimi Swagger](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.003.png)
+![Login Yönetimi parametreleri](Sendeo.9822246f-99c5-433f-9aec-66c86d8463a9.003.png)
 
-<a name="_toc100827509"></a>*Şekil 1 Login Yöntemi Swagger*
+<a name="_toc100827509"></a>*Şekil 1 Login Yöntemi Parametreleri*
 
 Yapılan entegrasyon testlerinin takibinin hem müşteri hem Sendeo tarafından kolay takibi amacıyla farklı müşteriler için tek test hesabı bulunmaktadır. Testler başarılı şekilde tamamlandıktan sonra canlı geçiş sürecinde api kullanıcı tanımı sube.sendeoo.com.tr üzerinden tanımlanması gerekmektedir. API servislerimiz herkese açıktır. Dışarıdan gelen istekler için herhangi bir IP iznimiz bulunmamaktadır. Ancak çok sayıda hatalı kullanıcı adı veya şifre bilgisi girildiğinde bloklanma olmaktadır. Bu durumda entegrasyon mail adresimize bilgi verilmelidir.
 
