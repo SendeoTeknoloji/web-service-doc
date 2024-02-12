@@ -1,0 +1,879 @@
+{
+	"info": {
+		"_postman_id": "ea54d3fe-6e81-4934-ad5d-ae14402911b3",
+		"name": "ENTEGRASYON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27935406"
+	},
+	"item": [
+		{
+			"name": "Cargo",
+			"item": [
+				{
+					"name": "Setdelivery - deliveryType:6",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"deliveryType\": 6,\r\n    \"referenceNo\": \"TESTASDQW-1\",\r\n    \"sender\": \"TEST\",\r\n    \"senderAddress\": \"Büyükdere Mh. Akzambaklı Sk.  PK: 26040 Odunpazarı Eskişehir \",\r\n    \"senderCityId\": 26,\r\n    \"senderDistrictId\": 174171,\r\n    \"senderPhone\": 905000000000,\r\n    \"senderGSM\": 905000000000,\r\n    \"receiver\": \"TEST ZEYNEP\",\r\n    \"receiverBranchCode\": null,\r\n    \"receiverId\": null,\r\n    \"receiverAuthority\": null,\r\n    \"receiverAddress\": \"GÖZTEPE MH. GÖZTEPE EMNİYET MÜDÜRLÜĞÜ KADIKÖY İSTANBUL  \",\r\n    \"receiverCityId\": 34,\r\n    \"receiverDistrictId\": 34245,\r\n    \"receiverPhone\": \"05000000000\",\r\n    \"receiverGSM\": \"\",\r\n    \"receiverEmail\": \"\",\r\n    \"paymentType\": 1,\r\n    \"collectionType\": 0,\r\n    \"serviceType\": 1,\r\n    \"barcodeLabelType\": 0,\r\n    \"products\": [\r\n        {\r\n            \"count\": 1,\r\n            \"deci\": 2\r\n        }\r\n    ]\r\n}\r\n/*{\r\n    \"deliveryType\": 6,\r\n    \"referenceNo\": \"TESTASDFGH-1\",\r\n    \"sender\": \"TEST\",\r\n    \"senderAddress\": \"Kayalıyokkuş mah. Hamdi tekmen sok. No 1 1 KAYALIYOKUŞ ŞARKIŞLA Sivas     Şarkişla Sivas Türkiye\",\r\n    \"senderCityId\": 58,\r\n    \"senderDistrictId\": 178189,\r\n    \"senderPhone\": 905000000000,\r\n    \"senderGSM\": 905000000000,\r\n    \"paymentType\": 1,\r\n    \"collectionType\": 0,\r\n    \"serviceType\": 1,\r\n    \"barcodeLabelType\": 0,\r\n    \"products\": [\r\n        {\r\n            \"count\": 1,\r\n            \"deci\": 2\r\n        }\r\n    ]\r\n}\r\n/*{\r\n    \"deliveryType\": 6,\r\n    \"referenceNo\": \"10398198\",\r\n    \"description\": \"Kitapseç Online Kargo Gönderimi\",\r\n    \"sender\": \"Aysenur tt\",\r\n    \"senderBranchCode\": null,\r\n    \"senderId\": null,\r\n    \"senderAuthority\": null,\r\n    \"senderAddress\": \"Belde mahallesi derya park sitesi Ablok kat6 no18\",\r\n    \"senderCityId\": 72,\r\n    \"senderDistrictId\": 178325,\r\n    \"senderPhone\": \"05000000000\",\r\n    \"senderGSM\": \"05000000000\",\r\n    \"senderEmail\": \"info@kitapsec.com\",\r\n    \"receiver\": \"Kitapseç Yayıncılık Ltd. Şti.\",\r\n    \"receiverBranchCode\": null,\r\n    \"receiverId\": null,\r\n    \"receiverAuthority\": null,\r\n    \"receiverAddress\": \"6. Cd. NO: 6 06909 Malıköy Anadolu Osb / Sincan / Ankara\",\r\n    \"receiverCityId\": 6,\r\n    \"receiverDistrictId\": 131001,\r\n    \"receiverPhone\": \"08505556252\",\r\n    \"receiverGSM\": \"\",\r\n    \"receiverEmail\": \"\",\r\n    \"paymentType\": 1,\r\n    \"collectionType\": 0,\r\n    \"collectionPrice\": 0.0,\r\n    \"dispatchNoteNumber\": \"INT2022000355212\",\r\n    \"serviceType\": 1,\r\n    \"barcodeLabelType\": 2,\r\n    \"products\": [\r\n        {\r\n            \"count\": 1,\r\n            \"productCode\": null,\r\n            \"description\": \"Muhtelif Kitap\",\r\n            \"deci\": 2,\r\n            \"weigth\": 0,\r\n            \"deciWeight\": 0,\r\n            \"price\": 0\r\n        }\r\n    ],\r\n    \"fileDatas\": [],\r\n    \"customerReferenceType\": \"\"\r\n}*/",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"SETDELIVERY"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Setdelivery - deliveryType:1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidGVzdC5iZXJuYSIsImNhcmlrb2QiOiI5OTI5NDk5IiwidXNlcmtvZCI6IjExOTc5IiwidXNlcnR5cGUiOiIyIiwibmJmIjoiMTY5MTY1MTY4NSIsImV4cCI6IjE2OTE4MjQ0ODUifQ.O75xsARu8Ps7OJDTBU2o_RK0M3n0Ezv22hRAmaOrM98",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"DeliveryType\": 1,\r\n    \"ReferenceNo\": \"TEST270423-BP2-003\",\r\n    \"Description\": \"test\",\r\n    \"Receiver\": \"test \",\r\n    \"ReceiverBranchCode\": 0,\r\n    \"ReceiverAuthority\": \"test\",\r\n    \"ReceiverAddress\": \"GÖMBE MH.  PK: 07780 KAŞ ANTALYA\",\r\n    \"ReceiverCityId\": 7,\r\n    \"ReceiverDistrictId\": 3399265,\r\n    \"ReceiverPhone\": \"905000115101\",\r\n    \"ReceiverGSM\": \"905000101101\",\r\n    \"ReceiverEmail\": \"\",\r\n    \"PaymentType\": 1,\r\n    \"CollectionType\": 0,\r\n    \"CollectionPrice\": 0,\r\n    \"DispatchNoteNumber\": \"\",\r\n    \"ServiceType\": 1,\r\n    \"BarcodeLabelType\": 2,\r\n    \"Products\": [\r\n        {\r\n            \"Count\": 1,\r\n            \"ProductCode\": \"\",\r\n            \"Description\": \"ASD Adlı ürün\",\r\n            \"Deci\": 1,\r\n            \"Price\": 10\r\n        },\r\n        {\r\n            \"Count\": 1,\r\n            \"ProductCode\": \"\",\r\n            \"Description\": \"ASD Adlı ürün\",\r\n            \"Deci\": 1,\r\n            \"Price\": 10\r\n        },\r\n        {\r\n            \"Count\": 1,\r\n            \"ProductCode\": \"\",\r\n            \"Description\": \"ASD Adlı ürün\",\r\n            \"Deci\": 1,\r\n            \"Price\": 10\r\n        }\r\n    ],\r\n    \"CustomerReferenceType\": \"test 29800793\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"SETDELIVERY"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Setdelivery - deliveryType:3",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Charset",
+								"value": "big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-compound_text, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json, application/*+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"deliveryType\": 3,\r\n    \"referenceNo\": \"2516988279-4NC-1\",\r\n    \"description\": \"\",\r\n    \"sender\": \"MEHMET TEST\",\r\n    \"senderBranchCode\": 149,\r\n    \"senderId\": \"544996\",\r\n    \"senderAuthority\": \"\",\r\n    \"senderAddress\": \"BAKIRKÖY İŞ MERKEZİ, CEVİZLİK MH. İSTANBUL CD. NO:6 PK: 34142 BAKIRKÖY İSTANBUL\",\r\n    \"senderCityId\": 6,\r\n    \"senderDistrictId\": 222813,\r\n    \"senderPhone\": \"\",\r\n    \"senderGSM\": \"+905555555555\",\r\n    \"senderEmail\": \"\",\r\n    \"receiver\": \"TEST ZEYNEP\",\r\n    \"receiverBranchCode\": 290,\r\n    \"receiverId\": \"992818\",\r\n    \"receiverAuthority\": \"\",\r\n    \"receiverAddress\": \"EMEK MH. ÇENGEL SK. PK: 34785 SANCAKTEPE İSTANBUL\",\r\n    \"receiverCityId\": 34,\r\n    \"receiverDistrictId\": 3398015,\r\n    \"receiverPhone\": \"+90555555555\",\r\n    \"receiverGSM\": \"5555555555\",\r\n    \"receiverEmail\": \"\",\r\n    \"paymentType\": 1,\r\n    \"collectionType\": 0,\r\n    \"collectionPrice\": 0,\r\n    \"dispatchNoteNumber\": \"\",\r\n    \"additionalValue\": \"\",\r\n    \"serviceType\": 1,\r\n    \"barcodeLabelType\": 9,\r\n    \"products\": [\r\n        {\r\n            \"count\": 1,\r\n            \"productCode\": \"\",\r\n            \"description\": \"kitap\",\r\n            \"deci\": 2,\r\n            \"weigth\": 0,\r\n            \"deciWeight\": 0\r\n        }\r\n    ],\r\n    \"payType\": 3,\r\n    \"customerReferenceType\": \"1\",\r\n    \"isReturn\": false,\r\n    \"senderTaxpayerId\": \"\",\r\n    \"receiverTaxpayerId\": \"\",\r\n    \"integratorCustomerCode\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"SETDELIVERY"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Setdelivery",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ReferenceNo\": \"10072023-12\",\r\n    \"deliveryType\": 3,\r\n    \"description\": \"\",\r\n    \"sender\": \"Özge test\",\r\n    \"senderBranchCode\": 149,\r\n    \"senderId\": \"5619807\",\r\n    \"senderAuthority\": \"\",\r\n    \"senderAddress\": \"Prof. Dr. Ahmet Taner Kışlalı, Kuşak Sitesi 4-1, 06810 Yenimahalle/Ankara\",\r\n    \"senderCityId\": 6,\r\n    \"senderDistrictId\": 222813,\r\n    \"senderPhone\": \"\",\r\n    \"senderGSM\": \"+905555555555\",\r\n    \"senderEmail\": \"\",\r\n    \"receiver\": \" test\",\r\n    \"receiverBranchCode\": 687,\r\n    \"receiverId\": \"992818\",\r\n    \"receiverAuthority\": \"\",\r\n    \"receiverAddress\": \"Hacı Ali Bey Mh. Sakarya-1 Cd.  PK: 26120 Tepebaşı Eskişehir \",\r\n    \"receiverCityId\": 26,\r\n    \"receiverDistrictId\": 179783,\r\n    \"receiverGSM\": \"5555555555\",\r\n    \"receiverEmail\": \"\",\r\n    \"paymentType\": 1, //  default 1 girilmesi zorunlu olmadığı zaman hata veriyor , geliştirme yapılması bekleniyor.    \r\n    \"collectionType\": 0, //  0 normal / 1 nakit  / 2 kredi kartı    \r\n    \"collectionPrice\": 0,\r\n    \"dispatchNoteNumber\": \"\",\r\n    \"additionalValue\": \"\",\r\n    \"serviceType\": 1, // 1 standart , 2 express    \r\n    \"barcodeLabelType\": 2, // 5 veya 6 gönderildiğinde EPL formatında barkod döner  // 8 de raf ıd bilgili zpl döner // 9 base64 formatında pdf döner 8 gibi çalışır    \r\n    \"products\": [\r\n        {\r\n            \"count\": 1,\r\n            \"productCode\": \"\",\r\n            \"description\": \"kitap\",\r\n            \"deci\": 1, // max 500           \r\n            \"weigth\": 0, // max 100           \r\n            \"deciWeight\": 0\r\n        }\r\n    ],\r\n    \"payType\": 3, // payType 1 gonderen oder -- 2 alici oder -- 3 platform oder -- 4 gonderi bilgisi yok    \r\n    \"customerReferenceType\": \"1\",\r\n    \"isReturn\": false,\r\n    \"senderTaxpayerId\": \"\",\r\n    \"receiverTaxpayerId\": \"\",\r\n    \"integratorCustomerCode\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"SETDELIVERY"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TRACKDELIVERY",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRC1NQVJLRVQiLCJrb2QiOiJELU1BUktFVCIsInVudmFuIjoiSEUqKioiLCJjYXJpa29kIjoiOTA3OTIiLCJzdWJlIjoiU0FOQ0FLVEVQRSBETSIsIndlYmNvZGUiOiJELU1BUktFVCIsInVzZXJhY2Nlc3Ntb2RlIjoiMyIsIm5iZiI6IjE2NzYzMDAyODEiLCJleHAiOiIxNjc2NDczMDgxIn0.rorUWqRtLLKrh-eJpEUXzZlC605rez9pk1TZFUwZkoo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/TRACKDELIVERY?referenceNo=TEST&trackingNo=",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"TRACKDELIVERY"
+							],
+							"query": [
+								{
+									"key": "referenceNo",
+									"value": "TEST"
+								},
+								{
+									"key": "trackingNo",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TRACKDELIVERY Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRC1NQVJLRVQiLCJrb2QiOiJELU1BUktFVCIsInVudmFuIjoiSEUqKioiLCJjYXJpa29kIjoiOTA3OTIiLCJzdWJlIjoiU0FOQ0FLVEVQRSBETSIsIndlYmNvZGUiOiJELU1BUktFVCIsInVzZXJhY2Nlc3Ntb2RlIjoiMyIsIm5iZiI6IjE2NzYzMDAyODEiLCJleHAiOiIxNjc2NDczMDgxIn0.rorUWqRtLLKrh-eJpEUXzZlC605rez9pk1TZFUwZkoo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/TRACKDELIVERY?referenceNo=TEST&trackingNo=",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"TRACKDELIVERY"
+							],
+							"query": [
+								{
+									"key": "referenceNo",
+									"value": "TEST"
+								},
+								{
+									"key": "trackingNo",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCargoList",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoib3p6Z2VrcmtrbCIsImNhcmlrb2QiOiI1NjE5ODA3IiwidXNlcmtvZCI6IjE3MTk1IiwidXNlcnR5cGUiOiIyIiwibmJmIjoiMTcwNjUwNjMxMSIsImV4cCI6IjE3MDY2NzkxMTEifQ.wqItbpLLOd00Mt8TJbb6MePG8GoI-xZkNHTXrrldoaE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ShipmentStartDate\": \"2023-11-01T13:14:17.555Z\",\r\n    \"ShipmentEndDate\": \"2023-12-21T13:14:17.555Z\",\r\n    \"DocumentType\": null,\r\n    \"DeliveryStartDate\": null,\r\n    \"DeliveryEndDate\": null,\r\n    \"CargoStatus\": 1,  \r\n    \"SenderCustomerTitle\": \"\",\r\n    \"ReceiverCustomerTitle\": \"\",\r\n    \"SenderCustomerId\": \"\",\r\n    \"ReceiverCustomerId\": \"\",\r\n    \"SenderCityId\": \"\",\r\n    \"ReceiverCityId\": \"\",\r\n    \"SenderBranchId\": \"\",\r\n    \"ReceiverBranchId\": \"\",\r\n    \"ServiceTypeId\": \"\",  //standart gönderiyse1\r\n    \"StatusIds\": [],\r\n    \"TrackingNumbers\": [],\r\n    \"AtfNumbers\": [],\r\n    \"CustomerReferenceNumbers\": [],\r\n    \"PageNumber\":0 ,\r\n    \"PageCount\": 20\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/GetCargoList",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"GetCargoList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCargoListByProducts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"shipmentStartDate\": \"2022-10-25T07:43:48.194Z\",\r\n  \"shipmentEndDate\": \"2022-10-26T07:43:48.194Z\",\r\n  \"documentType\": 0,\r\n  \"senderCustomerId\": 0,\r\n  \"receiverCustomerId\": 0,\r\n  \"senderCityId\": 0,\r\n  \"receiverCityId\": 0,\r\n  \"serviceTypeId\": 1,\r\n  \"statusIds\": [  ],\r\n  \"trackingNumbers\": [  ],\r\n  \"atfNumbers\": [  ],\r\n  \"customerReferenceNumbers\": [  ],\r\n  \"customerDispatchNoteNumbers\": [  ],\r\n  \"receiverCustomerTitle\": \"\",\r\n  \"senderCustomerTitle\": \"\",\r\n  \"cargoStatus\": 0,\r\n  \"isCanceled\": 0,\r\n  \"pageNumber\": 0,\r\n  \"pageCount\": 0,\r\n  \"senderDistrictId\": 0,\r\n  \"paymentType\": 0,\r\n  \"sortColumnName\": \"\",\r\n  \"sortType\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/GetCargoListByProducts",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"GetCargoListByProducts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CargoMeasurementUpdate",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CustomerReferenceNo\": \"11203734-T13\",\r\n    \"Measurements\": [\r\n        {\r\n            \"Quantity\": 1,\r\n            \"Width\": 0,\r\n            \"Length\": 0,\r\n            \"Height\": 0,\r\n            \"Deci\": 52.0,\r\n            \"Weight\": 0.0\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/CARGOMEASUREMENTUPDATE",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"CARGOMEASUREMENTUPDATE"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetBarcode",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVEVTVE9UT01BU1lPTiIsImNhcmlrb2QiOiI2NTg4MzExIiwidXNlcmtvZCI6Ijg4NDAiLCJ1c2VydHlwZSI6IjIiLCJuYmYiOiIxNzA2NTIzMjQ5IiwiZXhwIjoiMTcwNjY5NjA0OSJ9.o3m8DvB4_iN8q-qgBunEbpH8u7PMgaNbHdQrDhulHZo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"barcodeLabelType\": 8,\r\n  \"referenceNo\": \"7658933465\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/GETBARCODE",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"GETBARCODE"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CancelDelivery",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoib3pnZXRlc3QiLCJjYXJpa29kIjoiNTYxOTgwNyIsInVzZXJrb2QiOiIzODY3IiwidXNlcnR5cGUiOiIyIiwibmJmIjoiMTY3ODg2Nzk3MyIsImV4cCI6IjE2NzkwNDA3NzMifQ.wtM-9Zeddjoe9Ripbbnh7adH2lJJMM2byFVqFOPVjZM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/CANCELDELIVERY?referenceNo=202315031112",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"CANCELDELIVERY"
+							],
+							"query": [
+								{
+									"key": "referenceNo",
+									"value": "140320231328",
+									"disabled": true
+								},
+								{
+									"key": "referenceNo",
+									"value": "150320231031",
+									"disabled": true
+								},
+								{
+									"key": "referenceNo",
+									"value": "202315031112"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETBARCODEBYTRACKINGNUMBER",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVEVTVE9UT01BU1lPTiIsImNhcmlrb2QiOiI2NTg4MzExIiwidXNlcmtvZCI6Ijg4NDAiLCJ1c2VydHlwZSI6IjIiLCJuYmYiOiIxNzA2NTIzMjQ5IiwiZXhwIjoiMTcwNjY5NjA0OSJ9.o3m8DvB4_iN8q-qgBunEbpH8u7PMgaNbHdQrDhulHZo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"trackingNumber\": 401281283559\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/GETBARCODEBYTRACKINGNUMBER",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"GETBARCODEBYTRACKINGNUMBER"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCityDistricts",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoib3p6Z2VrcmtrbCIsImNhcmlrb2QiOiI1NjE5ODA3IiwidXNlcmtvZCI6IjE3MTk1IiwidXNlcnR5cGUiOiIyIiwibmJmIjoiMTcwNjUwNjMxMSIsImV4cCI6IjE3MDY2NzkxMTEifQ.wqItbpLLOd00Mt8TJbb6MePG8GoI-xZkNHTXrrldoaE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Cargo/GetCityDistricts?CityName=Ankara",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Cargo",
+								"GetCityDistricts"
+							],
+							"query": [
+								{
+									"key": "CityName",
+									"value": "Ankara"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Palet",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"musteri\": \"TEST\",\r\n    \"sifre\": \"TesT.43e54\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Token/LoginAES",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Token",
+								"LoginAES"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BarcodeToPaletId",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVEVTVE9UT01BU1lPTiIsImNhcmlrb2QiOiI2NTg4MzExIiwidXNlcmtvZCI6Ijg4NDAiLCJ1c2VydHlwZSI6IjIiLCJuYmYiOiIxNzA2NDc5MzUwIiwiZXhwIjoiMTcwNjY1MjE1MCJ9.t7RJa3yr14pyaktlIbahcGTsF_G0Hvo0guFfM6LsdoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"barcodeNo\": \"29012024833\", //customerReferenceNo\r\n  \"paletNo\": \"OzgePalet24\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Palet/BarcodeToPaletId",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Palet",
+								"BarcodeToPaletId"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CancelPalet",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVEVTVE9UT01BU1lPTiIsImNhcmlrb2QiOiI2NTg4MzExIiwidXNlcmtvZCI6Ijg4NDAiLCJ1c2VydHlwZSI6IjIiLCJuYmYiOiIxNzA2NDc5MzUwIiwiZXhwIjoiMTcwNjY1MjE1MCJ9.t7RJa3yr14pyaktlIbahcGTsF_G0Hvo0guFfM6LsdoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"barcodeNo\": \"29012024833\", \r\n  \"paletNo\": \"OzgePalet214\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Palet/CancelPalet",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Palet",
+								"CancelPalet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPaletBarcodeList",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVEVTVE9UT01BU1lPTiIsImNhcmlrb2QiOiI2NTg4MzExIiwidXNlcmtvZCI6Ijg4NDAiLCJ1c2VydHlwZSI6IjIiLCJuYmYiOiIxNzA2NDc5MzUwIiwiZXhwIjoiMTcwNjY1MjE1MCJ9.t7RJa3yr14pyaktlIbahcGTsF_G0Hvo0guFfM6LsdoA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"paletNo\": \"OzgePalet24\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Palet/GetPaletBarcodeList",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Palet",
+								"GetPaletBarcodeList"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Karaca müşterisi için geliştirilmesi yapıldı. İş emirlerinin toplu olarak iletilmesi amacıyla kullanılıyor.",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVEVTVFpFWU5FUCIsImtvZCI6IlRFU1RaRVlORVAiLCJ1bnZhbiI6IlRFU1QgWkVZTkVQIiwiY2FyaWtvZCI6IjkyNTk5OSIsInN1YmUiOiJTQU5DQUtURVBFIERNIiwid2ViY29kZSI6IlRFU1R6ZXluZXAiLCJ3ZWJwYXNzIjoiWmV5bmVwMjErLSEiLCJ1c2VyYWNjZXNzbW9kZSI6IjMiLCJuYmYiOiIxNjU4OTEyNjc2IiwiZXhwIjoiMTY1OTA4NTQ3NiJ9._Vh2KSgvtQOJl30aLqPpZ74bvfWK5vBLfHPBLEDEV3E",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Token",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"musteri\": \"TEST\",\r\n    \"sifre\": \"TesT.43e54\"\r\n}\r\n///\r\n//{\r\n///    \"musteri\": \"TEST\",\r\n    ///\"sifre\": \"ER4%7+sdgkl\"\r\n///}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Token/LoginAES",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Token",
+								"LoginAES"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"musteri\": \"TEST\",\r\n    \"sifre\": \"TesT.43e54\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.sendeo.com.tr/api/Token/LoginAES",
+							"protocol": "https",
+							"host": [
+								"api",
+								"sendeo",
+								"com",
+								"tr"
+							],
+							"path": [
+								"api",
+								"Token",
+								"LoginAES"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoib3p6Z2V0ZXN0IiwiY2FyaWtvZCI6IjU2MTk4MDciLCJ1c2Vya29kIjoiMTE2OTgiLCJ1c2VydHlwZSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsIm5iZiI6IjE2OTk0MjgyNjciLCJleHAiOiIxNjk5NDMxODY3In0.Z4fuEHvZWZwhfAj_SNjneYusbTcww4HDdG6H3SrbSNA",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseurl",
+			"value": "https://api-dev.sendeo.com.tr",
+			"type": "string"
+		},
+		{
+			"key": "preprod",
+			"value": "https://api-preprod.sendeo.com.tr",
+			"type": "string"
+		},
+		{
+			"key": "prod",
+			"value": "https://api.sendeo.com.tr",
+			"type": "string"
+		},
+		{
+			"key": "local",
+			"value": "https://localhost:5001",
+			"type": "string"
+		}
+	]
+}

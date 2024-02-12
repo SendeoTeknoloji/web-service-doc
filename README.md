@@ -92,7 +92,7 @@ Test HESABI Bilgileri
 
 “musteri”: “**TEST”**
 
-“sifre”: **TesT.43e54**
+“sifre”: "Şifre için entegrasyon@sendeo.com.tr adresine mail iletiniz."
 
 
 Canlı APi Bilgilerinin tanımı aşağıdaki gibi yapılması gerekmektedir.
@@ -549,3 +549,4 @@ DeliveryType 1 ,2 ve 3 Örnekleri
 #### <a href="https://github.com/SendeoTeknoloji/Sendeo.Client.PHP" >PHP Örnek Proje</a>
 
  
+#### <a href="ENTEGRASYON.postman_collection.json" >API Test Postman Dosyası</a>
