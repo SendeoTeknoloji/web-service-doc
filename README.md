@@ -550,3 +550,5 @@ DeliveryType 1 ,2 ve 3 Örnekleri
 
  
 #### <a href="ENTEGRASYON.postman_collection.json" >API Test Postman Dosyası</a>
+ Dosyayı kayıt etmek için aşağıdaki işlemi uygulayınız.
+![](image (3).png)
