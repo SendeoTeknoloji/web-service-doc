@@ -528,12 +528,9 @@ Post metodu ile çalışır.
 İl ilçe ismi var ise aşağıdaki gibi sorgulanabilir.
 
 https://api.sendeo.com.tr/api/Cargo/GetCityDistricts?CityName=kastamonu&DistrictName=merkez
-
-il içerisindeki tüm adreslere ihtiyaç var ise ( listenizi güncellemek için bunu kullanabilirsiniz) sadece il adı verdiğinizde ile bağlı tüm ilçeler dönmektedir.
+ 
 https://api-dev.sendeo.com.tr/api/Cargo/GetCityDistricts?CityName=izmir
-
-response örneğini aşağıda paylaşıyorum ID ve isim bilgileri ile liste olarak tek il verildiğinde dönmektedir. 
-
+ 
 ![image](https://github.com/SendeoTeknoloji/web-service-doc/assets/17000532/0af81477-6ee9-4b26-a0d8-0e6f519ce8e1)
 
 
