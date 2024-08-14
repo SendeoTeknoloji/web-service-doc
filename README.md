@@ -48,7 +48,7 @@
 
 
 
-[**Şekil 1 Login Yöntemi Swagger	4****](#_toc100827509)
+[**Şekil 1 Login Yöntemi	4****](#_toc100827509)
 
 [**Şekil 2 Cargo Servisleri Listesi	6****](#_toc100827510)
 
