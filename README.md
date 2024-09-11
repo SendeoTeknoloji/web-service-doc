@@ -356,7 +356,6 @@ trackingNumber veya referenceNo parametrelerini URL üzerinden query string olar
 |departureBranchName|string|İLKADIM DM|Gönderi için gönderen Sendeo bayi adı|
 |ArrivalBranchName|string|DÖRTYOL DN|Gönderi için varış Sendeo bayi adı|
 |deliveryPlannedDate|string|2022-02-04T16:55:17.3590867+03:00|Planlanan teslim tarihi|
-
 |DeliveryToPoint|boolean|False|Adrese Teslim Dışı Gönderi - AT DIŞI|
 |DeliveryToPoint|boolean|True|Adrese Teslim- AT İÇİ|
 
