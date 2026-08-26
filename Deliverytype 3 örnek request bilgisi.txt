@@ -20,6 +20,7 @@
     "collectionPrice": 0,
     "serviceType": 1,
     "barcodeLabelType": 3,
+    "barcodeVersion" : "V2"
     "products": [
         {
             "count": 3,
