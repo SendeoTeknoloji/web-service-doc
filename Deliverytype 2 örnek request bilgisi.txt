@@ -18,6 +18,7 @@
   "CollectionPrice": 0,
   "ServiceType": 1,
   "barcodeLabelType": 1,
+  "barcodeVersion" : "V2"
   "products":[ 
 {
     "Count": 2,
