@@ -27,6 +27,7 @@
   "additionalZpl": "1",
   "barcodeLabelType": 1,
   "customerReferenceType": "",
+  "barcodeVersion" : "V2"
   "products": [
     { "Deci" : 5,
       "Count": 1,
