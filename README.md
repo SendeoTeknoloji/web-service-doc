@@ -475,6 +475,7 @@ https://apiintg.kolaygelsin.com.tr/api/Cargo/GETBARCODE
 {
   "barcodeLabelType": 2,
   "referenceNo": "8880027245251060"
+  "barcodeVersion" : "V2"
 } 
 
 Post metodu ile çalışır.
@@ -486,6 +487,7 @@ Post metodu ile çalışır.
 | :- | :- | :- | :- | :- |
 |barcodeLabelType|integer|Zorunlu|1|Alınmak istenen barkod tipini belirtir.|
 |referenceNo|integer|Zorunlu|8880000793512692|Gönderi referans numarasıdır.|
+|BarcodeVersion|string|Zorunlu|GETBARCODE ve SETDELIVERY servislerine atılan istekler içerisine "BarcodeVersion" : "V2" flag eklemesi yapıldığında yeni barkod erişimi sağlanabilmektedir.| “ZPL”,”HTML” veya “TEXT” formatında bilgi iletilebilir.|
 ###
 
 ### <a name="_toc101346629"></a>Cevap Parametreleri (200 = Başarılı)
