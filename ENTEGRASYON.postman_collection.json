@@ -24,13 +24,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/SETDELIVERY",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -66,13 +65,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/SETDELIVERY",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -114,13 +112,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/SETDELIVERY",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -146,13 +143,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/SETDELIVERY",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/SETDELIVERY",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -179,13 +175,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/TRACKDELIVERY?referenceNo=TEST&trackingNo=",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/TRACKDELIVERY?referenceNo=TEST&trackingNo=",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -222,13 +217,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/TRACKDELIVERY?referenceNo=TEST&trackingNo=",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/TRACKDELIVERY?referenceNo=TEST&trackingNo=",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -274,13 +268,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/GetCargoList",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/GetCargoList",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -306,13 +299,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/GetCargoListByProducts",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/GetCargoListByProducts",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -338,13 +330,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/CARGOMEASUREMENTUPDATE",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/CARGOMEASUREMENTUPDATE",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -380,13 +371,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/GETBARCODE",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/GETBARCODE",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -413,13 +403,12 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/CANCELDELIVERY?referenceNo=202315031112",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/CANCELDELIVERY?referenceNo=202315031112",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -471,13 +460,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/GETBARCODEBYTRACKINGNUMBER",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/GETBARCODEBYTRACKINGNUMBER",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -504,13 +492,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Cargo/GetCityDistricts?CityName=Ankara",
+							"raw": "https://apiintg.kolaygelsin.com/api/Cargo/GetCityDistricts?CityName=Ankara",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -578,13 +565,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Token/LoginAES",
+							"raw": "https://apiintg.kolaygelsin.com/api/Token/LoginAES",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -620,13 +606,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Palet/BarcodeToPaletId",
+							"raw": "https://apiintg.kolaygelsin.com/api/Palet/BarcodeToPaletId",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -662,13 +647,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Palet/CancelPalet",
+							"raw": "https://apiintg.kolaygelsin.com/api/Palet/CancelPalet",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -704,13 +688,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Palet/GetPaletBarcodeList",
+							"raw": "https://apiintg.kolaygelsin.com/api/Palet/GetPaletBarcodeList",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -772,13 +755,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Token/LoginAES",
+							"raw": "https://apiintg.kolaygelsin.com/api/Token/LoginAES",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -804,13 +786,12 @@
 							}
 						},
 						"url": {
-							"raw": "https://api.sendeo.com.tr/api/Token/LoginAES",
+							"raw": "https://apiintg.kolaygelsin.com/api/Token/LoginAES",
 							"protocol": "https",
 							"host": [
-								"api",
-								"sendeo",
-								"com",
-								"tr"
+								"apiintg",
+								"kolaygelsin",
+								"com"	
 							],
 							"path": [
 								"api",
@@ -857,17 +838,17 @@
 	"variable": [
 		{
 			"key": "baseurl",
-			"value": "https://api-dev.sendeo.com.tr",
+			"value": "https://apiintg-dev.klyglsn.com",
 			"type": "string"
 		},
 		{
 			"key": "preprod",
-			"value": "https://api-preprod.sendeo.com.tr",
+			"value": "https://apiintg-preprod.klyglsn.com",
 			"type": "string"
 		},
 		{
 			"key": "prod",
-			"value": "https://api.sendeo.com.tr",
+			"value": "https://apiintg.kolaygelsin.com",
 			"type": "string"
 		},
 		{
